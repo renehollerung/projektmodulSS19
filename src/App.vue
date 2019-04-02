@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+
+    <course-overview-component/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import RegisterComponent from './components/RegisterComponent.vue'
+import CreateQuizComponent from './components/CreateQuizComponent.vue'
+import CourseOverviewComponent from './components/CourseOverviewComponent.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    RegisterComponent,
+    CreateQuizComponent,
+    CourseOverviewComponent
   }
 }
 </script>
