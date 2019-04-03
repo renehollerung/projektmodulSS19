@@ -13,7 +13,7 @@
                     <table width="20%"  align="center">
                     
                     <tr>
-                    <td colspan=2><center><font size=4><b>Login</b></font></center></td>
+                    <td colspan=2><center><font size=4><b>Registrierung</b></font></center></td>
                     </tr>
                     
                     <tr>
